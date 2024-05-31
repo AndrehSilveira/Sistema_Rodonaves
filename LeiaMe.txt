@@ -1,0 +1,70 @@
+
+
+Usuarios -> 
+	cadastra com nome, senha e status;
+	exibe nome e status de tudo;
+	exibe nome e status de tudo por status;
+	exibe nome e status de um;
+	edita senha e status de um. Não deleta;
+Colaboradores -> 
+	cadastra nome obrigando relacionar 01 usuário e 01 unidade específica; 
+	não permite cadastrar em unidade desativada;
+	exibe tudo (id, nome, usuario relacionado e unidade associado),;
+	exibe somente um (id, nome, usuario relacionado e unidade associado);
+	deleta;
+Unidades -> 
+	cadastra nome e status;
+	altera nome e status;
+	exibe todas as unidades e stauts e colaboradores cadastrados;
+
+
+-> Como mapear tabelas do banco de dados
+Ferramentas -> Gerenciador de Pacotes de NuGet -> Console do Gerenciador de Pacotes
+Dentro do projeto, executar o seguinte comando:
+	dotnet tool install --global dotnet-ef
+
+Depois executar o comando:
+	dotnet ef dbcontext scaffold "Server=DESKTOP-HLRFOVS;DataBase=Api_Crud_Csharp;User Id=sa;Password=1234" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+Se eu quiser pegar somente uma tabela específica:
+	dotnet ef dbcontext scaffold "Server=DESKTOP-HLRFOVS;DataBase=Api_Crud_Csharp;User Id=sa;Password=1234" Microsoft.EntityFrameworkCore.SqlServer -o Models -t tabela1, tabela2
+
+
+
+	-------------------------------------------------------------------------------------------
+
+use Api_Crud_Csharp
+select top 10 * from dbo.usuarios
+select top 10 * from dbo.Colaboradores
+select top 10 * from dbo.unidades
+
+
+
+--ALTER TABLE dbo.Colaboradores ALTER COLUMN idUsuario int NULL; 
+
+--alter table dbo.unidades
+--add constraint FK_IdUnidade foreign key (IdUnidade)
+--references dbo.unidade (Id)
+
+--alter table dbo.colaboradores
+--drop constraint FK_IdUnidade
+--go
+
+--drop table dbo.Colaboradores
+--drop table dbo.unidades_colaboradores
+
+--create table dbo.Colaboradores (
+--	[Id] [int] NULL,
+--	[IdColaborador] [int] NULL,
+--constraint FK_Unidades_IdUnidade foreign key (idUnidade) references dbo.Unidades,
+--constraint FK_Colaboradores_IdColaborador foreign key (idColaborador) references dbo.Colaboradores
+--)
+--go
+
+--create table dbo.colaboradores_usuarios (
+--	[IdColaborador] [int] NULL,
+--	[IdUsuario] [int] NULL,
+--constraint FK_Colaboradores_IdColaborador2 foreign key (idColaborador) references dbo.Colaboradores,
+--constraint FK_Usuarios_IdUsuario foreign key (idUsuario) references dbo.Usuarios
+--)
+--go

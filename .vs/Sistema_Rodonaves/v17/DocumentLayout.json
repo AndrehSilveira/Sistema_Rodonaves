@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|c:\\users\\user\\documents\\projeto_crud\\sistema_rodonaves\\leiame.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|solutionrelative:leiame.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|c:\\users\\user\\documents\\projeto_crud\\sistema_rodonaves\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|c:\\users\\user\\documents\\projeto_crud\\sistema_rodonaves\\repository\\colaboradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|solutionrelative:repository\\colaboradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|c:\\users\\user\\documents\\projeto_crud\\sistema_rodonaves\\models\\colaboradore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|solutionrelative:models\\colaboradore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|c:\\users\\user\\documents\\projeto_crud\\sistema_rodonaves\\repository\\unidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|solutionrelative:repository\\unidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|c:\\users\\user\\documents\\projeto_crud\\sistema_rodonaves\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC2E38FE-C7E3-40CE-A2CB-6500F0D1CBBB}|Sistema_Rodonaves.csproj|solutionrelative:repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T00:55:54.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Colaboradore.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\Models\\Colaboradore.cs",
+              "RelativeDocumentMoniker": "Models\\Colaboradore.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\Models\\Colaboradore.cs",
+              "RelativeToolTip": "Models\\Colaboradore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T00:39:41.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ColaboradorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\Repository\\ColaboradorRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ColaboradorRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\Repository\\ColaboradorRepository.cs",
+              "RelativeToolTip": "Repository\\ColaboradorRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T23:24:53.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnidadeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\Repository\\UnidadeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UnidadeRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\Repository\\UnidadeRepository.cs",
+              "RelativeToolTip": "Repository\\UnidadeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T22:13:08.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\Repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\Repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "Repository\\UsuarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T22:24:52.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeiaMe.txt",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\LeiaMe.txt",
+              "RelativeDocumentMoniker": "LeiaMe.txt",
+              "ToolTip": "C:\\Users\\User\\Documents\\PROJETO_CRUD\\Sistema_Rodonaves\\LeiaMe.txt",
+              "RelativeToolTip": "LeiaMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-18T02:20:32.227Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
