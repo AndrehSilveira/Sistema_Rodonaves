@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Sistema_Rodonaves.Data;
+using Sistema_Rodonaves.DTO;
 using Sistema_Rodonaves.Models;
 using Sistema_Rodonaves.Repository.Interfaces;
 
@@ -30,7 +31,14 @@ namespace Sistema_Rodonaves.Repository
             return usuario;
         }
 
-        public async Task<Usuario> Atualizar(Usuario usuario, int id)
+        public async Task<List<Usuario>> BuscarPorStatus(int status)
+        {
+            var usuario = await _dbContext.Usuarios.Where(x => x.Status == status).ToListAsync();
+
+            return usuario;
+        }
+
+        public async Task<Usuario> Atualizar(UsuarioAlteraDTO usuario, int id)
         {
             Usuario usuarioPorId = await BuscarPorId(id);
 
@@ -39,7 +47,7 @@ namespace Sistema_Rodonaves.Repository
                 throw new Exception($"Usuário com ID: {id} não foi encontrado.");
             }
 
-            usuarioPorId.Login = usuarioPorId.Login;
+            //usuarioPorId.Login = usuarioPorId.Login;
             usuarioPorId.Senha = usuario.Senha;
             usuarioPorId.Status = usuario.Status;
 

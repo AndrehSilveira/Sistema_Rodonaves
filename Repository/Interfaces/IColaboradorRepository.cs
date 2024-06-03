@@ -1,4 +1,5 @@
-﻿using Sistema_Rodonaves.Models;
+﻿using Sistema_Rodonaves.DTO;
+using Sistema_Rodonaves.Models;
 
 namespace Sistema_Rodonaves.Repository.Interfaces
 {
@@ -6,8 +7,8 @@ namespace Sistema_Rodonaves.Repository.Interfaces
     {
         Task<List<Colaboradore>> BuscarTodosColaboradores();
         Task<Colaboradore> BuscarPorId(int id);
-        Task<Colaboradore> Adicionar(Colaboradore colaborador);
-        Task<Colaboradore> Atualizar(Colaboradore colaborador, int id);
+        Task<ColaboradorDTO> Adicionar(ColaboradorDTO colaborador);
+        Task<Colaboradore> Atualizar(ColaboradorDTO colaborador, int id);
         Task<string> Apagar(int id);
     }
 }

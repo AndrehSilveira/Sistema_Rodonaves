@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Sistema_Rodonaves.Data;
+using Sistema_Rodonaves.DTO;
 using Sistema_Rodonaves.Models;
 using Sistema_Rodonaves.Repository.Interfaces;
 
@@ -16,8 +17,8 @@ namespace Sistema_Rodonaves.Repository
         public async Task<Colaboradore> BuscarPorId(int id)
         {
             return await _dbContext.Colaboradores
-                .Include(x => x.IdUnidadeNavigation)
-                .Include(x => x.IdUsuarioNavigation)
+                //.Include(x => x.IdUnidadeNavigation)
+                //.Include(x => x.IdUsuarioNavigation)
                 .FirstOrDefaultAsync(x => x.Id == id);
         }
 
@@ -28,15 +29,15 @@ namespace Sistema_Rodonaves.Repository
                 .Include(x => x.IdUsuarioNavigation)
                 .ToListAsync();
         }
-        public async Task<Colaboradore> Adicionar(Colaboradore colaborador)
+        public async Task<ColaboradorDTO> Adicionar(ColaboradorDTO colaborador)
         {
-            await _dbContext.Colaboradores.AddAsync(colaborador);
+            await _dbContext.ColaboradoresDTO.AddAsync(colaborador);
             await _dbContext.SaveChangesAsync();
 
             return colaborador;
         }
 
-        public async Task<Colaboradore> Atualizar(Colaboradore colaborador, int id)
+        public async Task<Colaboradore> Atualizar(ColaboradorDTO colaborador, int id)
         {
             Colaboradore colaboradorPorId = await BuscarPorId(id);
 

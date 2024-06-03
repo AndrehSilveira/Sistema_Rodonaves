@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Sistema_Rodonaves.DTO;
 using Sistema_Rodonaves.Models;
 
 namespace Sistema_Rodonaves.Data
@@ -18,6 +19,7 @@ namespace Sistema_Rodonaves.Data
         }
 
         public virtual DbSet<Colaboradore> Colaboradores { get; set; } = null!;
+        public virtual DbSet<ColaboradorDTO> ColaboradoresDTO { get; set; } = null!;
         public virtual DbSet<Unidade> Unidades { get; set; } = null!;
         public virtual DbSet<Usuario> Usuarios { get; set; } = null!;
 

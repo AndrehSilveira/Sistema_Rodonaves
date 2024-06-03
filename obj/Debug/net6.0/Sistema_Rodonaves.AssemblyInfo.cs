@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sistema_Rodonaves")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e18e4da8ab006deadbefb104feb4d1a9d0e42daa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sistema_Rodonaves")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sistema_Rodonaves")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

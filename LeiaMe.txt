@@ -1,11 +1,11 @@
 
 
-Usuarios -> 
-	cadastra com nome, senha e status;
-	exibe nome e status de tudo;
-	exibe nome e status de tudo por status;
-	exibe nome e status de um;
-	edita senha e status de um. Não deleta;
+Usuarios -> OK
+	cadastra com nome, senha e status; OK
+	exibe nome e status de tudo; OK
+	exibe nome e status de tudo por status; OK
+	exibe nome e status de um; OK
+	edita senha e status de um. Não deleta; OK
 Colaboradores -> 
 	cadastra nome obrigando relacionar 01 usuário e 01 unidade específica; 
 	não permite cadastrar em unidade desativada;
@@ -38,7 +38,7 @@ select top 10 * from dbo.usuarios
 select top 10 * from dbo.Colaboradores
 select top 10 * from dbo.unidades
 
-
+-->>> PAREI NOS COLABORADORES... PRECISO LISTAR EM TODOS SOMENTE O QUE EU PRECISO, E POR ID TAMBÉM.
 
 --ALTER TABLE dbo.Colaboradores ALTER COLUMN idUsuario int NULL; 
 

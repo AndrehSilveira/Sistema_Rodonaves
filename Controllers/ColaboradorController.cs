@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Sistema_Rodonaves.Models;
+using Sistema_Rodonaves.DTO;
 using Sistema_Rodonaves.Repository.Interfaces;
 
 namespace Sistema_Rodonaves.Controllers
@@ -30,14 +31,14 @@ namespace Sistema_Rodonaves.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Colaboradore>> CadastrarUsuario([FromBody] Colaboradore colaboradorModel)
+        public async Task<ActionResult<ColaboradorDTO>> CadastrarColaborador([FromBody] ColaboradorDTO colaboradorModel)
         {
-            Colaboradore colaborador = await _colaboradorRepository.Adicionar(colaboradorModel);
+            ColaboradorDTO colaborador = await _colaboradorRepository.Adicionar(colaboradorModel);
             return Ok(colaborador);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<Colaboradore>> AtualizaUsuario([FromBody] Colaboradore colaboradorModel, int id)
+        public async Task<ActionResult<Colaboradore>> AtualizaColaborador([FromBody] ColaboradorDTO colaboradorModel, int id)
         {
             colaboradorModel.Id = id;
             Colaboradore colaborador = await _colaboradorRepository.Atualizar(colaboradorModel, id);
@@ -45,7 +46,7 @@ namespace Sistema_Rodonaves.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Colaboradore>> Apagar(int id)
+        public async Task<ActionResult<Colaboradore>> ApagarColaborador(int id)
         {
             string apagado = await _colaboradorRepository.Apagar(id);
             return Ok(apagado);
